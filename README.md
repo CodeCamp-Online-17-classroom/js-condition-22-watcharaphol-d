@@ -1,11 +1,9 @@
-# js-lab-38
-### Lab38 Conditiona: Guess Result13
-คำสั่ง alert ในแต่ละบรรทัดจะแสดงค่าเป็นอะไรบ้าง
+# js-lab-39
+### Lab39 Conditiona: Guess Result14
+โค้ดด้านล่าง มีคำสั่ง alert อันไหนบ้างที่จะทำงาน
 
 ```JavaScript
-alert(null || 2 || undefined);
-alert(alert(1) || 2 || alert(3));
-alert(1 && null && 2);
-alert(alert(1) && alert(2));
-alert(null || (2 && 3) || 4);
+if (-1 || 0) alert('first');
+if (-1 && 0) alert('second');
+if (null || (-1 && 1)) alert('third');
 ```
